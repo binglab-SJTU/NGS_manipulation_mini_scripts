@@ -5,9 +5,9 @@
 This script aimed to help to extract gene expression of different conditions for a specific gene list.
 
 ## USAGE:
-      ```
+      
       python Extract_gene_expression.py --genelist inflammatory_gene_list.txt --exp genes.fpkm_tracking --output expression.txt --genecol 5 --expcol 10,14
-      ```
+      
 ## Command Line:
 Usage: Gene expression extraction [-h] [--genelist GENELIST] [--exp EXP] [--output OUTPUT] [--genecol GENECOL] [--expcol EXPCOL] [--sep SEP]
 ### Arguments:
